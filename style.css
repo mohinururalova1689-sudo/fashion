@@ -40,15 +40,14 @@ header {
   gap: 20px;
 }
 
-.logo{
- width: 200px;
- height: 600px;
+.navbar .logo{
+ height: 80px;
+ object-fit: cover;
 }
 
-.navbar img {
+/* .navbar img {
   max-height: 24px;
-  object-fit: contain;
-}
+} */
 
 nav {
   display: flex;
