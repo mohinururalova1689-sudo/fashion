@@ -40,8 +40,12 @@ header {
   gap: 20px;
 }
 
+.navbar a:hover{
+ 
+}
+
 .navbar .logo{
- height: 80px;
+ height: 68px;
  object-fit: cover;
 }
 
@@ -61,24 +65,18 @@ nav a {
   font-size: 14px;
   font-weight: 500;
   position: relative;
-  padding: 4px 0;
+  padding: 10px 15px;
+
   transition: color 0.3s ease;
 }
 
-nav a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #111111;
-  transition: width 0.3s ease;
+nav a:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
-nav a:hover {
-  color: #ffffff;
-}
+
 
 nav a:hover::after {
   width: 100%;
