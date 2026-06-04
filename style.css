@@ -907,10 +907,12 @@ nav a:hover::after {
     color 0.3s ease,
     transform 0.3s ease;
 }
-
-.brand-item:hover {
-  color: #111111;
-  transform: translateY(-2px);
+.brand-item img{
+  transition: 0.3s;
+}
+.brand-item img:hover {
+  /* color: #111111; */
+  transform:  scale(1.04);
 }
 
 .site-footer {
